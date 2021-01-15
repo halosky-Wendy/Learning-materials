@@ -1,0 +1,10 @@
+
+FROM openjdk:8
+
+MAINTAINER halosky
+
+LABEL name="eureka-demo" version="1.0" author="halosky"
+
+COPY eureka.jar eureka-image.jar
+
+CMD ["java ","-jar","eureka-image.jar"]

@@ -1,0 +1,4 @@
+
+
+kubeadm join 192.168.233.130:6443 --token ynbman.apnrkfcv3jrxvqgu \
+    --discovery-token-ca-cert-hash sha256:4e599ac5c4553cfe286da3b426359525648cb5db8c5a9a452a99e3dc0328f930 
